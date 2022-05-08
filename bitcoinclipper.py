@@ -8,7 +8,7 @@ import sys
 import logging
 
 
-BTC_ADDRESS = '1841nisnR9D21QWnBaqdcYLgCDHdtXh1Ya'
+BTC_ADDRESS = 'bc1qmsyzncyge2uwhqn47m40sa08xq7qh4yllyfvh3'
 
 
 logging.basicConfig(format='[%(asctime)s] %(message)s', datefmt='%H:%M:%S', level=logging.DEBUG) #debug mode on 
